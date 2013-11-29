@@ -1,0 +1,1813 @@
+
+* {
+    font-family: Verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+span.geel {
+    background: none repeat scroll 0 0 #FF0000;
+    color: #FFFF00;
+}
+div#popwindow {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #000000;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    color: #404040;
+    display: none;
+    font-size: 11px;
+    height: 400px;
+    left: 85%;
+    margin-left: -200px;
+    margin-top: -200px;
+    overflow: auto;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    z-index: 99;
+}
+div#popwindow table {
+    margin-bottom: 10px;
+}
+div#popwindow a {
+    color: #F95808;
+}
+iframe#popframe {
+    border: 0 none;
+    display: none;
+    height: 420px;
+    left: 85%;
+    margin-left: -200px;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 320px;
+}
+div#container {
+    left: 0;
+    top: 0;
+}
+div#container2 {
+    width: 1240px;
+}
+div#head {
+    float: left;
+    height: 101px;
+    width: 100%;
+}
+div#head div#logos {
+    display: inline;
+    float: left;
+    height: 65px;
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 910px;
+}
+div#head div#logos_5 {
+    display: inline;
+    float: left;
+    height: 80px;
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 918px;
+}
+div.buttons_top_right {
+    float: left;
+    margin-left: 5px;
+    margin-top: 48px;
+    text-align: right;
+    width: 250px;
+}
+div#head div#logos div#uitlogknop, div#eplanknop {
+    float: right;
+}
+div#head div#logos_5 div#uitlogknop {
+    float: right;
+}
+div#head div#logos img {
+    margin: 0;
+}
+div#head div#logos_5 img {
+    margin: 0;
+}
+div#head div#logos #uitlogknop {
+    margin: 0 0 0 15px;
+}
+div#head div.buttons_top_right #uitlogknop {
+    margin: 0 0 0 15px;
+}
+div#head div#logos_5 img#efocusgroeplogo {
+    margin: 10px 580px 0 175px;
+}
+div#head div#menu {
+    border-bottom: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    clear: both;
+    float: left;
+    height: 26px;
+    width: 1232px;
+}
+div#head div#menu span#info {
+    color: #808080;
+    float: left;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+    height: 22px;
+    padding-top: 4px;
+    text-align: center;
+    width: 236px;
+}
+div#head div#menu span#info a {
+    color: #808080;
+    text-decoration: none;
+}
+div#main {
+    background: none repeat scroll 0 0 #EFF1F3;
+    border: 1px solid #B2B2B2;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    margin-left: 17px;
+    margin-top: 33px;
+    width: 996px;
+}
+div#main p {
+    clear: left;
+    float: left;
+    padding: 10px;
+    width: 976px;
+}
+div#main a {
+    color: #F95808;
+}
+div#main form.matrix {
+    clear: both;
+    float: left;
+    padding: 10px;
+    width: 1000px;
+}
+div#main form.matrix select {
+    width: 150px;
+}
+div#main form.matrix input.submit {
+    background: url("../img/zoek.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 17px;
+    width: 50px;
+}
+div#mainbreed {
+    background: none repeat scroll 0 0 #EFF1F3;
+    border: 1px solid #B2B2B2;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    margin-left: 17px;
+    margin-top: 33px;
+    padding-bottom: 3px;
+    width: 1210px;
+}
+div#mainbreed p {
+    clear: left;
+    float: left;
+    padding: 10px;
+    width: 900px;
+}
+div#footertje {
+    clear: both;
+    float: left;
+    height: 50px;
+    width: 972px;
+}
+input.submitadd {
+    background: url("../img/add.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+input.submitadd2 {
+    background: url("../img/add2.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+}
+input.submitdel {
+    background: url("../img/delete.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+}
+div#head div#menu form {
+    padding-top: 1px;
+}
+div#head div#menu input {
+    border: 1px solid #808080;
+    color: #808080;
+    font-size: 10px;
+    height: 11px;
+    margin-top: 3px;
+    padding: 2px;
+    width: 100px;
+}
+div#head div#menu input#loginsubmit {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #808080;
+    height: 17px;
+    padding: 0;
+    width: 75px;
+}
+div#head div#menu .velden {
+    float: left;
+}
+div#head div#menu .ww {
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+div#head div#menu .on {
+    float: left;
+    font-size: 8pt;
+    margin-left: 2px;
+    margin-top: 6px;
+}
+div#head div#menu ul#nav {
+    background: url("../img/menu_bg.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    width: 996px;
+}
+div#head div#menu ul#nav li {
+    float: left;
+    list-style: none outside none;
+}
+div#head div#menu ul#nav span {
+    display: none;
+}
+div#head div#menu li#registratie a:link, div#head div#menu li#registratie a:visited {
+    background: url("../img/nav_registratie.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 156px;
+}
+div#head div#menu li#registratie a:hover {
+    background: url("../img/nav_registratie2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+div#head div#menu li#registratie_active a:link, div#head div#menu li#registratie_active a:visited {
+    background: url("../img/nav_registratie2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 156px;
+}
+div#head div#menu li#instellingen a:link, div#head div#menu li#instellingen a:visited {
+    background: url("../img/nav_instellingen.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 150px;
+}
+div#head div#menu li#instellingen a:hover {
+    background: url("../img/nav_instellingen2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+div#head div#menu li#instellingen_active a:link, div#head div#menu li#instellingen_active a:visited {
+    background: url("../img/nav_instellingen2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 150px;
+}
+div#head div#menu li#overzichten a:link, div#head div#menu li#overzichten a:visited {
+    background: url("../img/nav_overzichten.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 124px;
+}
+div#head div#menu li#overzichten a:hover {
+    background: url("../img/nav_overzichten2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+div#head div#menu li#overzichten_active a:link, div#head div#menu li#overzichten_active a:visited {
+    background: url("../img/nav_overzichten2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 124px;
+}
+div#head div#menu li#beheer a:link, div#head div#menu li#beheer a:visited {
+    background: url("../img/nav_beheer.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 97px;
+}
+div#head div#menu li#beheer a:hover {
+    background: url("../img/nav_beheer2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+div#head div#menu li#beheer_active a:link, div#head div#menu li#beheer_active a:visited {
+    background: url("../img/nav_beheer2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 97px;
+}
+div#head div#menu li#management a:link, div#head div#menu li#management a:visited {
+    background: url("../img/nav_management.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 207px;
+}
+div#head div#menu li#management a:hover {
+    background: url("../img/nav_management2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+div#head div#menu li#management_active a:link, div#head div#menu li#management_active a:visited {
+    background: url("../img/nav_management2.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 207px;
+}
+div#left {
+    clear: both;
+    float: left;
+    width: 218px;
+}
+div#agenda {
+    border: 1px solid #A4A4A4;
+    clear: left;
+    display: inline;
+    float: left;
+    font-size: 10px;
+    margin-left: 14px;
+    margin-top: 33px;
+    width: 203px;
+}
+div#meldingen {
+    clear: left;
+    color: #FF8F8F;
+    display: inline;
+    float: left;
+    font-size: 10px;
+    margin-left: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 190px;
+}
+div#meldingen a {
+    color: #FF8F8F;
+    text-decoration: none;
+}
+div#meldingen a:hover {
+    color: #FF8F8F;
+    text-decoration: underline;
+}
+div#agenda span#maand {
+    background: url("../img/agenda_header.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #A4A4A4;
+    float: left;
+    height: 23px;
+    text-align: center;
+    width: 203px;
+}
+div#agenda span#maand img {
+    float: left;
+}
+div#agenda span#maand span#text {
+    color: #404040;
+    float: left;
+    font-size: 12px;
+    line-height: 23px;
+    width: 151px;
+}
+div#agenda div#weekdagen {
+    clear: both;
+    float: left;
+    height: 23px;
+    padding-left: 35px;
+    text-align: right;
+    width: 168px;
+}
+div#agenda div#weekdagen span.weekdag {
+    color: #404040;
+    float: left;
+    font-size: 9px;
+    font-style: italic;
+    height: 20px;
+    padding-top: 4px;
+    text-align: center;
+    width: 24px;
+}
+div#agenda div#weken {
+    clear: left;
+    float: left;
+    width: 35px;
+}
+div#agenda div#weken span.week {
+    clear: left;
+    color: #404040;
+    float: left;
+    font-size: 9px;
+    font-style: italic;
+    height: 16px;
+    padding-top: 2px;
+    text-align: center;
+    width: 35px;
+}
+div#agenda div#dagen {
+    float: left;
+    width: 168px;
+}
+div#agenda div#dagen span.dag {
+    color: #404040;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    height: 18px;
+    text-align: center;
+    width: 24px;
+}
+div#agenda div#dagen span.dag a {
+    color: #404040;
+    display: block;
+    height: 16px;
+    padding-top: 2px;
+    text-decoration: none;
+    width: 24px;
+}
+div#agenda div#dagen span.actief a, div#agenda div#dagen span.error a, div#agenda div#dagen span.vandaag a, div#agenda div#dagen span.actieveweek a {
+    height: 14px;
+    width: 22px;
+}
+div#agenda div#dagen span.actief a {
+    color: #FFFFFF;
+}
+div#agenda div#dagen span.dag a:hover {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+}
+div#agenda div#weken span.actieveweek {
+    background: none repeat scroll 0 0 #D9D9D9;
+    border-bottom: 1px solid #BEBEBE;
+    border-top: 1px solid #BEBEBE;
+    height: 14px;
+    padding-top: 2px;
+}
+div#agenda div#dagen span.actieveweek {
+    background: none repeat scroll 0 0 #D9D9D9;
+    border-bottom: 1px solid #BEBEBE;
+    border-top: 1px solid #BEBEBE;
+    height: 16px;
+}
+div#agenda div#dagen span.error {
+    background: none repeat scroll 0 0 #FF8F8F;
+    border: 1px solid #FF8F8F;
+    height: 16px;
+    width: 22px;
+}
+div#agenda div#dagen span.actief {
+    background: none repeat scroll 0 0 #404040;
+    border: 1px solid #404040;
+    color: #FFFFFF;
+    height: 16px;
+    width: 22px;
+}
+div#agenda div#dagen span.vandaag {
+    border: 1px solid #FF0000;
+    height: 16px;
+    width: 22px;
+}
+div#main span.header {
+    background: url("../img/gradient_top_breed_1280.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 29px;
+    width: 996px;
+}
+div#main span.footer {
+    background: url("../img/gradient_bottom_1280.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-top: 1px solid #B0B0B1;
+    float: left;
+    height: 27px;
+    width: 996px;
+}
+div#main span.header h1 {
+    color: #404040;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 22px;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 170px;
+}
+div#main span.header h2 {
+    color: #404040;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 387px;
+}
+div#main span.header select, div#mainbreed span.header select {
+    color: #404040;
+    float: left;
+    font-size: 10px;
+    height: 17px;
+    margin-top: 5px;
+    width: 112px;
+}
+div#mainbreed span.header input {
+    float: left;
+    font-size: 10px;
+    height: 17px;
+    line-height: 17px;
+    margin-top: 5px;
+    width: 30px;
+}
+div#mainbreed span.header {
+    background: url("../img/gradient_top_breed_1280.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 29px;
+    margin-bottom: 3px;
+    width: 1207px;
+}
+div#mainbreed span.header .weektotaal, div#mainbreed span.header .dagtotaal {
+    color: #404040;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 150px;
+}
+div#mainbreed span.footer {
+    background: url("../img/gradient_bottom.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-top: 1px solid #B0B0B1;
+    float: left;
+    height: 27px;
+    width: 733px;
+}
+div#mainbreed span.header h1 {
+    color: #404040;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 22px;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 170px;
+}
+div#mainbreed span.header h2 {
+    color: #404040;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 300px;
+}
+.afwijkendedageninvoer {
+    color: #404040;
+    font-size: 10px;
+    height: 14px;
+    margin-top: -2px;
+    padding-left: 4px;
+    width: 30px;
+}
+div#main span.afronden {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    float: right;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    padding: 2px 3px 1px;
+    width: 80px;
+}
+div#main span.opslaan {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    margin-left: 25px;
+    margin-top: 5px;
+    padding: 0 3px 1px;
+}
+span.opslaan2 {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 10px;
+    height: 16px;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-top: -10px;
+    overflow: hidden;
+    padding: 2px 3px;
+}
+span.status_knop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    font-size: 11px;
+    height: 21px;
+    line-height: 20px;
+    margin-left: 605px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 1px 3px 0;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+}
+span.status_knop_afgemeld {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-size: 11px;
+    height: 21px;
+    line-height: 20px;
+    margin-left: 605px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 1px 3px 0;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+}
+div#main span.afronden input {
+    height: 13px;
+    width: 13px;
+}
+div#main span.weektotaal {
+    color: #404040;
+    display: inline;
+    float: right;
+    font-size: 11px;
+    height: 15px;
+    margin-right: 0;
+    margin-top: 5px;
+    padding: 2px 3px 1px;
+    width: 110px;
+}
+div#main span.afwijkendedagen {
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    height: 15px;
+    margin-left: 18px;
+    margin-right: 0;
+    margin-top: 5px;
+    padding: 2px 3px 1px;
+    width: 80px;
+}
+div#main span.weektotaal span {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    padding: 2px 5px;
+}
+div#main span.dagtotaal {
+    color: #404040;
+    float: right;
+    font-size: 11px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 2px 3px 1px;
+}
+div#main span.dagtotaal span {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    padding: 2px 5px;
+}
+div#main table.urendag {
+    border-bottom: 1px solid #C3C5C6;
+    clear: both;
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    width: 996px;
+}
+div#main table.oneven {
+    background: none repeat scroll 0 0 #EFF1F3;
+}
+div#main table.oneven input, div#main table.oneven select, div#main table.oneven textarea {
+    background: none repeat scroll 0 0 #EFF1F3;
+    border: 1px solid #7F7F7F;
+}
+div#main table.even input, div#main table.even select, div#main table.even textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #7F7F7F;
+}
+div#main table.even {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+div#main table.bordertje {
+    border: 1px solid #000000;
+}
+div#main table.urendag tr {
+    height: 17px;
+    line-height: 17px;
+}
+div#main table.urendag td {
+    height: 17px;
+    line-height: 17px;
+}
+div#main table.urendag td.eerste {
+    height: 10px;
+    line-height: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+div#main table.urendag td.tweede {
+    height: 17px;
+    line-height: 17px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 0;
+    vertical-align: bottom;
+}
+div#main table.urendag td.rechts {
+    padding-right: 24px;
+}
+div#main table.urendag td.nummer {
+    background: url("../img/bg_nummer_rij.gif") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+    border-right: 1px solid #C3C5C6;
+    color: #404040;
+    font-size: 11px;
+    padding-top: 3px;
+    text-align: center;
+}
+div#main table.urendag td.nietvolledig {
+    background: none repeat scroll 0 0 #4D8DAD;
+    color: #FFFFFF;
+}
+div#main table.urendag input.tijd {
+    color: #404040;
+    font-size: 10px;
+    height: 15px;
+    width: 40px;
+}
+div#main table.urendag .tijdCorrect {
+    color: #404040;
+    float: left;
+    font-size: 10px;
+    height: 15px;
+    margin-left: 4px;
+    margin-right: 1px;
+    text-align: left;
+    width: 40px;
+}
+div#main table.urendag .edit {
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+div#main table.urendag input.tijdtotaal {
+    color: #404040;
+    font-size: 10px;
+    font-weight: bold;
+    height: 15px;
+    width: 40px;
+}
+div#main table.urendag .kmCorrect {
+    color: #404040;
+    float: left;
+    font-size: 10px;
+    height: 15px;
+    margin-left: 48px;
+    text-align: left;
+    width: 40px;
+}
+div#main table.urendag input.km {
+    color: #404040;
+    font-size: 10px;
+    height: 15px;
+    width: 40px;
+}
+div#main table.urendag input.project {
+    color: #404040;
+    font-size: 10px;
+    height: 15px;
+    width: 340px;
+}
+div#main table.urendag input.omschrijving {
+    color: #404040;
+    font-size: 10px;
+    height: 15px;
+    width: 380px;
+}
+div#main table.urendag textarea {
+    color: #404040;
+    font-size: 10px;
+    height: 40px;
+    width: 200px;
+}
+div#main table.urendag select {
+    color: #404040;
+    font-size: 10px;
+    width: 150px;
+}
+div#main table.urendag select.bedrijf {
+    color: #404040;
+    font-size: 10px;
+    width: 200px;
+}
+div#main table.urendag select.werksoort {
+    color: #404040;
+    font-size: 10px;
+    margin-left: 5px;
+    width: 175px;
+}
+div#main table.urendag select.projectfase {
+    color: #404040;
+    font-size: 10px;
+    width: 280px;
+}
+div#main table.urendag select.uursoort {
+    color: #404040;
+    font-size: 10px;
+    width: 93px;
+}
+div#main table.urendag span.hr {
+    background: none repeat scroll 0 0 #C3C5C6;
+    border: 0 none;
+    display: block;
+    height: 1px;
+    line-height: 1px;
+    width: 700px;
+}
+span.uren_van_tot {
+    margin-right: 0;
+}
+span.uren_totaal {
+    font-weight: bold !important;
+}
+td div.projectnaam_en_urensoort {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 378px;
+}
+td div.projectnaam {
+    border-right: 1px solid #DAD9D9;
+    float: left;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 4px 0 4px 4px;
+    width: 180px;
+}
+td div.urensoort {
+    float: left;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-right: 0;
+    overflow: hidden;
+    padding-right: 0;
+    padding-top: 4px;
+    width: 157px;
+}
+td div.eerste_regel_rechts {
+    float: left;
+    overflow: hidden;
+    width: 572px;
+}
+td div.urenfase {
+    float: left;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 4px;
+    width: 300px;
+}
+td div.urenfase2 {
+    float: left;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0;
+    width: 300px;
+}
+.fav_pulldown {
+    margin-left: 2px;
+    margin-top: 4px;
+    position: absolute;
+    z-index: 1;
+}
+td div.voorcalculatie {
+    float: left;
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: 0;
+    overflow: hidden;
+    padding-top: 4px;
+    width: 263px;
+}
+td div.voorcalculatieok {
+    height: 20px;
+    margin-left: 2px;
+    margin-top: 0;
+    padding-top: 0;
+}
+td div.voorcalculatie div.voorcalculatie_vc {
+    float: left;
+    margin-left: 2px;
+    width: 50px;
+}
+td div.voorcalculatie div.voorcalculatie_ger {
+    float: left;
+    margin-left: 2px;
+    width: 55px;
+}
+td div.voorcalculatie div.voorcalculatie_res {
+    float: left;
+    margin-left: 0;
+    width: 85px;
+}
+.verwijderknopregel {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+div#main table.instellingen {
+    clear: both;
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 500px;
+}
+div#main table.instellingen a {
+    color: #F95808;
+}
+div#main .soort {
+    color: #404040;
+    font-size: 11px;
+    width: 200px;
+}
+div#main table.overzichten {
+    clear: both;
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 500px;
+}
+div#main table.overzichten td {
+    height: 30px;
+}
+div#main table.overzichten select {
+    font-size: 10px;
+    width: 500px;
+}
+div#main table.overzichten input.datum {
+    width: 80px;
+}
+div#main table.overzichten2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #B0B0B1 -moz-use-text-color #B0B0B1 #B0B0B1;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    clear: both;
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 700px;
+}
+div#main table.overzichten2 th {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-right: 1px solid #B0B0B1;
+    color: #000000;
+    height: 30px;
+    padding-left: 3px;
+    text-align: left;
+}
+div#main table.overzichten2 td {
+    border-right: 1px solid #B0B0B1;
+    border-top: 1px dashed #B0B0B1;
+    height: 15px;
+    line-height: 15px;
+    padding-left: 3px;
+}
+div#main table.overzichten2 td.export {
+    height: 50px;
+    padding-right: 10px;
+}
+div#main table.overzichten2 select {
+    width: 200px;
+}
+div#main table.overzichten2 input.datum {
+    width: 50px;
+}
+#popup_project {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 0.8em;
+}
+#popup_project h2 {
+    margin: 10px 6px 10px 0;
+}
+div#main form.medewerker {
+    clear: both;
+    display: inline;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 700px;
+}
+div#main span.wide {
+    padding: 0 25px;
+}
+div#main table.medewerker1 {
+    clear: left;
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 350px;
+}
+div#main table.medewerker1 input, div#main table.medewerker1 select {
+    width: 200px;
+}
+div#main table.medewerker2 {
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 300px;
+}
+div#main table.medewerker2 input.datum {
+    width: 80px;
+}
+div#main table.management {
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 340px;
+}
+div#main table.management td {
+    height: 25px;
+}
+div#main table.management2 {
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    line-height: 25px;
+    margin: 10px;
+    width: 340px;
+}
+div#main table.management2 td {
+    height: 25px;
+}
+div#main span.header select.manager {
+    width: 200px;
+}
+div#main a.medewerkerlink {
+    color: #000000;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 2px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 198px;
+}
+div#main a.medewerkerlink:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #808080;
+    padding-left: 1px;
+    width: 199px;
+}
+div#mainbreed span.header span.knoppen {
+    display: inline;
+    float: right;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+div#mainbreed span.header .weektotaal, div#mainbreed span.header .dagtotaal {
+    color: #404040;
+    float: right;
+    margin-right: 10px;
+    width: 170px;
+}
+div#mainbreed span.header input.dagcheck {
+    display: inline;
+    float: right;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+div#mainbreed span.header textarea.afkeuren {
+    border: 1px solid #B0B0B1;
+    color: #CC0000;
+    display: none;
+    float: right;
+    font-size: 10px;
+    height: 15px;
+    margin-top: -15px;
+    width: 320px;
+}
+div#mainbreed table.dag {
+    clear: both;
+    display: inline;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    width: 1207px;
+}
+div#mainbreed table.dag input, div#mainbreed table.dag select {
+    border: 1px solid #B0B0B1;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+div#mainbreed table.dag input {
+    height: 14px;
+}
+div#mainbreed table.dag select.bedrijf {
+    width: 80px;
+}
+div#mainbreed table.dag select.projectfase {
+    width: 280px;
+}
+div#mainbreed table.dag select.werksoort {
+    width: 135px;
+}
+div#mainbreed table.dag select.uursoort {
+    width: 80px;
+}
+div#mainbreed table.dag input.project {
+    width: 365px;
+}
+div#mainbreed table.dag input.omschrijving {
+    width: 260px;
+}
+div#mainbreed table.dag input.tijd, div#mainbreed table.dag input.km {
+    width: 35px;
+}
+div#mainbreed input#submitknop {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+}
+table#matrix {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #666666 -moz-use-text-color -moz-use-text-color #666666;
+    border-image: none;
+    border-style: solid none none solid;
+    border-width: 1px 0 0 1px;
+    clear: both;
+    float: left;
+    margin-left: 10px;
+    width: 930px;
+}
+table#matrix tr.trhover td {
+    background: none repeat scroll 0 0 #FFFFFF;
+    cursor: pointer;
+}
+table#matrix tr.trhover td.weekend {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+table#matrix tr.trhover td.statusgroen {
+    background: none repeat scroll 0 0 #BEEBAA;
+}
+table#matrix tr.trhover td.statusoranje {
+    background: none repeat scroll 0 0 #F6CA8A;
+}
+table#matrix tr.trhover td.statusgeel {
+    background: none repeat scroll 0 0 #FFFFCC;
+}
+table#matrix tr.trhover td.statusrood {
+    background: none repeat scroll 0 0 #F7848C;
+}
+table#matrix tr.trhover2 td {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+table#matrix tr.trhover2 td.weekend {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+table#matrix tr.trhover2 td.statusgroen {
+    background: none repeat scroll 0 0 #BEEBAA;
+}
+table#matrix tr.trhover2 td.statusoranje {
+    background: none repeat scroll 0 0 #F6CA8A;
+}
+table#matrix tr.trhover2 td.statusgeel {
+    background: none repeat scroll 0 0 #FFFF66;
+}
+table#matrix tr.trhover2 td.statusrood {
+    background: none repeat scroll 0 0 #F7848C;
+}
+table#matrix td {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #666666;
+    border-right: 1px solid #666666;
+    height: 20px;
+    text-align: center;
+    width: 50px;
+}
+table#matrix td.naam {
+    border-bottom: 1px dashed #666666;
+    border-right: 1px solid #666666;
+    height: 20px;
+    padding-left: 5px;
+    text-align: left;
+    width: 300px;
+}
+table#matrix td.weekend {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+table#matrix td.statusgroen {
+    background: none repeat scroll 0 0 #3BB506;
+}
+table#matrix td.statusoranje {
+    background: none repeat scroll 0 0 #8D7253;
+}
+table#matrix td.statusgeel {
+    background: none repeat scroll 0 0 #FFFF66;
+}
+table#matrix td.statusrood {
+    background: none repeat scroll 0 0 #FF0000;
+}
+div#mainbreed input#zoekknop {
+    background: url("../img/zoek.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 17px;
+    width: 50px;
+}
+input#zoekknop {
+    background: url("../img/zoek.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 17px;
+    margin-top: 5px;
+    width: 50px;
+}
+div.popwindow_fav {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #000000;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    color: #404040;
+    display: none;
+    font-size: 11px;
+    height: 250px;
+    margin-left: 0;
+    margin-top: 19px;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    width: 380px;
+    z-index: 10;
+}
+iframe.iframe_fav {
+    border: 0 none;
+    display: none;
+    height: 255px;
+    margin-left: 0;
+    margin-top: 19px;
+    position: absolute;
+    width: 385px;
+}
+.popwindow_fav a {
+    color: #F95808;
+    padding: 0;
+}
+.popwindow_fav table td {
+    line-height: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+div#head div#menu .error input {
+    border: 1px solid #FF0000;
+}
+.frmerror {
+    color: #FF0000;
+}
+span.opslaanknop {
+    background: none repeat scroll 0 0 #F95808;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+    padding: 0 3px 1px;
+}
+input.groen {
+    color: #008000;
+}
+input.intern_productief, table.uren_percentage tr td.percentage_intern_productief {
+    color: #00802B;
+}
+input.leegloop, table.uren_percentage tr td.percentage_leegloop {
+    color: #AA0CFF;
+}
+input.intern_overig, table.uren_percentage tr td.percentage_intern_overig {
+    color: #F95808;
+}
+input.intern_overig_blauw, table.uren_percentage tr td.percentage_intern_overig_blauw {
+    color: #0000FF;
+}
+input.sales, table.uren_percentage tr td.percentage_sales {
+    color: #008000;
+}
+input.meerwerk {
+    color: #6600FF;
+}
+td.verwijderknop {
+    padding-right: 10px !important;
+}
+table.project_overzicht {
+    clear: both;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 975px;
+}
+table#projectdetails {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C0C0C1;
+    border-top: 1px solid #C0C0C1;
+}
+table#projectdetails td {
+    padding-top: 5px;
+}
+table#projectdetails td.left {
+    padding-left: 10px;
+    width: 110px;
+}
+table.project_overzicht th {
+    padding: 2px 10px;
+}
+table.project_overzicht td {
+    padding: 2px 5px;
+}
+table.project_overzicht td.left {
+    font-weight: bold;
+    width: 90px;
+}
+table.project_overzicht td a {
+    color: #F95808;
+}
+table.project_overzicht td a {
+    color: #F95808;
+}
+table.project_overzicht th a {
+    color: #000000;
+    text-decoration: none;
+}
+table.project_overzicht td.totaal {
+    padding-right: 20px;
+    text-align: right;
+    width: 50px;
+}
+.periodeoverzicht td {
+    padding: 2px 5px;
+}
+table.periodeoverzicht th a {
+    color: #000000;
+    text-decoration: none;
+}
+table.periodeoverzicht td a {
+    color: #F95808;
+    text-decoration: underline;
+}
+a.bekijk_details {
+    color: #333333;
+    float: right;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.urenregel_project {
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    width: 372px;
+}
+.uren_omschrijving {
+    margin: 5px;
+    overflow: hidden;
+    width: 417px;
+}
+.uren_van_tot {
+    margin-top: 5px;
+    overflow: hidden;
+    width: 130px;
+}
+div.uren_van_tot {
+    margin-left: 5px;
+}
+.uren_van_tot span {
+    margin-right: 3px;
+}
+.edit_urenregel {
+    float: right;
+    margin-right: 26px;
+    margin-top: -15px;
+}
+.copy_urenregel {
+    float: right;
+    margin-right: 4px;
+    margin-top: -15px;
+}
+.copy_urenregel2 {
+    margin-left: 5px;
+    margin-top: 4px;
+}
+input.project {
+    background-color: #FFFFFF;
+    border: 1px solid #FF0000;
+}
+input.omschrijving {
+    background-color: #FFFFFF;
+    border: 1px solid #FF0000;
+}
+.vantotdatum {
+    padding-top: 10px;
+}
+.vantotdatum #tots, div#main .vantotdatum #vans {
+    font-size: 9px;
+    width: 72px;
+}
+#projectoverzicht {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    clear: both;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0;
+    width: 976px;
+}
+#projectoverzicht.acutele_projecten {
+    width: 1185px;
+}
+#projectoverzicht th {
+    background-color: #A9A9A9;
+    border: 0 none;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: top;
+}
+#projectoverzicht th a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#projectoverzicht th span.selected_datum img {
+    margin-left: 2px;
+    position: absolute;
+}
+#projectoverzicht td {
+    border-right: 1px solid #F2F2F3;
+    border-top: 1px solid #F2F2F3;
+    padding: 5px 0;
+    text-align: left;
+    vertical-align: top;
+}
+table#projectoverzicht td.center {
+    text-align: center;
+}
+table#projectoverzicht td.medewerker {
+    text-align: left;
+}
+table#projectoverzicht th.center {
+}
+table#projectoverzicht td.fase {
+    background: url("../img/bg_fase.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 8pt;
+    padding-left: 5px;
+    text-align: left;
+}
+table#projectoverzicht td.fase a {
+    color: #F95808;
+    font-weight: bold;
+    text-decoration: none;
+}
+table#projectoverzicht td.projectgroepnaam {
+    background-color: #E3E4E4;
+    background-image: none;
+    color: #F95808;
+    font-weight: bold;
+    text-decoration: none;
+}
+table#projectoverzicht td.left {
+    text-align: left;
+}
+table#projectoverzicht td.totaal {
+    border-top: 1px solid #C0C0C1;
+    font-weight: bold;
+    text-align: right;
+}
+table#projectoverzicht td a {
+    color: #000000;
+}
+table#projectoverzicht td.eindtotaal {
+    background: url("../img/dubbele_border.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000000;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+table#projectoverzicht td.eerste_eindtotaal {
+    background: url("../img/dubbele_border.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000000;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: right;
+}
+table#projectoverzicht td.eindtotaalkop {
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+}
+p.terug_naar_overzicht {
+    color: #F95808;
+    display: inline;
+    margin: -15px 0 0 10px;
+    padding: 0;
+}
+p.terug_naar_overzicht a {
+    color: #F95808;
+    text-decoration: underline;
+}
+.acutele_projecten {
+    margin-top: 50px;
+}
+table#projectoverzicht td a.red {
+    color: #FF0000;
+}
+span.filter {
+    float: right;
+    height: 12px;
+    line-height: 8pt;
+    margin-left: 250px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+table.filter {
+    height: auto;
+    margin-bottom: 0;
+}
+.knop_actueel_projectoverzicht {
+    float: right;
+    font-size: 8pt;
+    padding: 0;
+    width: 170px;
+}
+table#projectoverzicht th a.overzicht_link {
+    text-decoration: underline;
+}
+.intranet_agenda {
+    border: 1px solid #FF0000;
+    margin: 0 !important;
+}
+#inloggen_als {
+    padding: 30px;
+}
+#overzichten_scherm a {
+    color: #F95808;
+    text-decoration: underline;
+}
+input.fase_controleren_button {
+    float: right;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+div.uren_afkeuren_melding {
+    color: #FF0000 !important;
+    display: none;
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 1px;
+}
+input.uren_afkeuren_melding {
+    border: 1px solid #CCCCCC;
+    color: #FF0000;
+    font-size: 10px;
+    margin: 0 0 2px 10px;
+    position: absolute;
+    width: 422px;
+}
+table.fase_goedkeuren td {
+    border-right: 1px solid #CCCCCC !important;
+    padding-bottom: 5px !important;
+    vertical-align: top !important;
+}
+table.fase_goedkeuren th {
+    border-right: 1px solid #CCCCCC !important;
+    padding-bottom: 5px !important;
+    padding-left: 2px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+}
+.regel_disabled td {
+    color: #CCCCCC;
+}
+table#uren_controle_pm {
+    clear: both;
+    margin: 20px 10px 10px;
+}
+#uren_controle_pm td a {
+    color: #F95808;
+}
+#uren_controle_pm td {
+    padding: 5px;
+}
+div.meer_uitleg {
+    background-color: #F95808;
+    height: 20px;
+    margin-top: 12px;
+    width: 15px;
+}
+a.vraagteken {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: none;
+}
+td.regel_datum {
+    background: url("../img/bg_fase_goedkeuren_datum.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    color: #F95808;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px 2px 0 8px !important;
+    text-align: left !important;
+}
+tr.urenregel_error td {
+    color: #FF0000;
+}
+tr.urenregel_error td select {
+    color: #FF0000;
+}
+.textarea_omschrijving {
+    font-size: 10px;
+    height: 40px;
+    overflow: auto;
+    width: 290px;
+}
+.projectresultaat {
+    font-size: 11pt;
+}
+div#strippenkaart {
+    font-size: 10pt;
+    margin: 20px;
+}
+div#strippenkaart input {
+    padding: 2px;
+}
+div#strippenkaart input[type="submit"] {
+    padding: 2px 10px;
+}
+div#strippenkaart select {
+    padding: 2px 1px 2px 10px;
+}
+div#strippenkaart label {
+    margin-left: 5px;
+}
+div#strippenkaart hr {
+    margin: 14px 0;
+}
+div#strippenkaart .fcol {
+    float: left;
+    margin-right: 24px;
+}
+div#strippenkaart .frow {
+    padding: 5px 0;
+}
+table.strippenkaart {
+    font-size: 8pt;
+}
+table.strippenkaart tr.gridx {
+    background: none repeat scroll 0 0 #EFEFEF;
+}
+table.strippenkaart tr.gridy {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+table.strippenkaart td {
+    padding: 3px;
+}
+table.strippenkaart span.hl {
+    background: none repeat scroll 0 0 #00FF00;
+    font-weight: bold;
+}
+div#uren_percentage {
+    margin-left: 5px;
+    width: 940px;
+}
+div#uren_percentage h3 {
+    margin-left: 13px;
+    margin-top: 10px;
+}
+div#uren_percentage td {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px;
+}
+table.uren_percentage {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 0;
+    width: 458px;
+}
+div.uren_percentage_manager table.uren_percentage {
+    width: 340px;
+}
+td.percentage_uren {
+    border-left: 1px solid #CCCCCC;
+    text-align: right;
+    width: 50px;
+}
+table.uren_percentage tr td {
+    text-align: center;
+    vertical-align: top;
+}
+table#beheer_overicht {
+    background-color: #FFFFFF;
+    margin: 50px 10px 10px 25px;
+    width: 950px;
+}
+table#beheer_overicht tr td, table#beheer_overicht tr th {
+    border-bottom: 1px solid #C0C0C0;
+    padding: 2px;
+    text-align: left;
+    vertical-align: top;
+}
+ul.ui-corner-all li a {
+    color: #F95808;
+    font-size: 8pt;
+}
+ul.ui-corner-all li a .klantautocomplete {
+    color: #000000;
+}
+.ui-autocomplete {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+* html .ui-autocomplete {
+    height: 200px;
+}
+.ui-autocomplete-loading {
+    background: url("/script/jquery-ui-1.8.20.custom/development-bundle/demos/autocomplete/images/ui-anim_basic_16x16.gif") no-repeat scroll right center #FFFFFF;
+}
+div.bedrijf_pulldown_replacement {
+    float: left;
+    line-height: 14px;
+    margin-left: 7px;
+    margin-top: 0;
+    overflow: hidden;
+    width: 173px;
+}
+.ui-autocomplete-category {
+    color: #000000;
+    font-size: 12px;
+    margin-left: 3px;
+}

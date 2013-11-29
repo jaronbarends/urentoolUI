@@ -1,0 +1,501 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+div#container {
+	margin: 0 auto;
+	max-width: 1500px;
+}
+
+
+/*-- Start main layout elements --*/
+
+	div#main span.header,
+	div#main table.urendag,
+	div#main span.footer {
+		width: 100%;
+		max-width: 1100px;
+	}
+
+	td,
+	select {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/*-- End main layout elements --*/
+
+
+/*-- Start header --*/
+
+div#head {
+	float: none;
+	overflow: hidden;
+	margin: 0 0 20px;
+	height: auto;
+}
+
+div#head div#menu {
+	overflow: hidden;
+	float: none;
+	border-top: none;
+	border-right: none;
+	width: auto;
+	height: auto;
+}
+
+div#head div#menu ul#nav {
+	float: none;
+	width: auto;
+	background: none;
+}
+
+div.buttons_top_right {
+	margin: 48px 5px 0;
+}
+
+/*-- End header --*/
+
+
+/*-- Start left --*/
+
+	div#left {
+		clear: none;/* unnecessary */
+		margin: 0 20px;
+	}
+
+	div#agenda,
+	div#meldingen {
+		margin: 0 0 20px;
+		width: auto;
+	}
+
+/*-- End left --*/
+
+
+/*-- Start container 2 --*/
+
+	input:focus,
+	select:focus {
+		box-shadow: 0 0 3px #3399ff;
+	}
+
+	div#container2 {
+		overflow: hidden;
+		width: auto;
+	}
+
+	div#main {
+		display: block;
+		float: none;
+		background: none;/* unnecessary */
+		margin: 0;
+		width: auto;
+		border: none;
+		font: inherit;
+	}
+
+	div#main span.header {
+		/* header above table */
+		overflow: hidden;
+		display: block;
+		float: none;
+		padding: 10px 0;
+		/* width defined at main layout */
+		height: auto;
+		background: none;
+	}
+
+	div#main span.header h1 {
+		display: inline-block;
+		font-size: inherit;
+		margin: 0 1em 0 2.5em;
+		width: auto;
+		height: auto;
+	}
+
+	div#main span.header select,
+	div#mainbreed span.header select {
+		float: none;
+		margin: 0;
+		width: auto;
+		height: auto;
+		font: inherit;
+	}
+
+	div#main table.urendag {
+		clear: none;
+		float: none;
+		border: 1px solid #C3C5C6;
+		/* width defined at main layout */
+		font-size: 1.2rem;
+	}
+
+	div#main table.oneven {
+		background: #f5f5f5;
+	}
+
+	td {
+		background: none !important;/* important is necessary to overrule inline styles */
+	}
+
+	div#main table.urendag tr {
+		height: auto;
+		line-height: inherit;
+	}
+
+	div#main table.urendag td {
+		width: auto;
+		height: auto;
+		padding: 5px !important;/* important is necessary to overrule inline styles */
+		line-height: inherit;
+	}
+
+	div#main table.urendag tr:first-child td {
+		padding-top: 8px !important;
+	}
+
+	div#main table.urendag tr:last-child td {
+		padding-bottom: 8px !important;
+	}
+
+	div#main table.urendag td.nummer {
+		font-size: inherit;
+		padding: 5px;
+		width: 2em;
+	}
+
+	div#main table.urendag td.eerste,
+	div#main table.urendag td.tweede {
+		height: auto;
+		line-height: inherit;
+		vertical-align: auto;
+	}
+
+	div#main table.urendag td.nummer + td.eerste {
+		width: 33em;
+	}
+
+		td div.projectnaam_en_urensoort {
+			width: auto;
+		}
+
+			td div.projectnaam,
+			div.bedrijf_pulldown_replacement {
+				margin: 0 5px 0 0;
+				padding: 0;
+				width: 45%;
+				line-height: inherit;
+			}
+
+			td div.urensoort {
+				float: none;
+				margin: 0;
+				padding: 0;
+				width: auto;
+				line-height: inherit;
+			}
+
+	td div.eerste_regel_rechts {
+		width: auto;
+	}
+
+	td div.urenfase,
+	td div.urenfase2,
+	div.uren_omschrijving,
+	div#main table.urendag input.omschrijving {
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		overflow: visible;
+		margin: 0 5px 0 0;
+		padding: 5px;
+		width: 20em;
+		line-height: inherit;
+	}
+
+	td div.urenfase,
+	td div.urenfase2 {
+		margin-right: 16px;
+	}
+
+	td div.urenfase2 {
+		padding: 0;
+	}
+
+	div#main table.urendag tr+tr td:first-child + td {
+		width: 21em;
+	}
+
+
+
+	div.uren_van_tot {
+		float: left;
+		margin: 0;
+		width: 16em;
+	}
+
+	div#main table.urendag td.nummer.nietvolledig {
+		color: #404040;
+	}
+
+	td.nietvolledig ~ td {
+
+	}
+
+	div#main table.urendag select {
+		width: 90%;
+		padding: 5px;
+		max-width: 20em;
+		font-size: inherit;
+	}
+
+	div#main table.urendag select.werksoort {
+		margin: 0;
+		width: 52%;
+		font-size: inherit;
+	}
+
+	option {
+		padding: 3px;
+	}
+
+	.urenfase2 span {
+		display: block;
+	}
+
+	div#main table.urendag select.projectfase {
+		width: 100%;
+		font-size: inherit;
+	}
+
+	td div.voorcalculatie {
+		margin: 0;
+		height: auto;
+		width: auto;
+		color: #999;
+	}
+
+	.tweede.rechts {
+		text-align: left;
+	}
+
+	/*-- delete edit knoppen --*/
+
+		.verwijderknopregel {
+			display: block;
+			float: right;
+			margin: 0;
+		}
+
+		a[title="Copy regel"],
+		a[title="Edit regel"],
+		td.verwijderknop a,
+		.verwijderknopregel a {
+			display: block;
+			float: right;
+			margin: 0 0 0 5px !important;
+			padding: 5px;
+		}
+
+		td.verwijderknop a,
+		.verwijderknopregel a {
+			border: 1px solid #e63200;
+			background: #e63200;
+		}
+
+		a[title="Copy regel"] {
+			border: 1px solid #ababab;
+		}
+
+		a[title="Edit regel"] {
+			border: 1px solid #090;
+			background: #090;
+		}
+
+
+		a[title="Copy regel"] img,
+		a[title="Edit regel"] img {
+			margin: 0;
+		}
+
+	div#main table.urendag input.project {
+		font-size: inherit;
+		height: auto;
+		padding: 5px;
+		width: 88%;
+	}
+
+	div#main table.urendag input.project + a {
+		display: inline-block;
+	}
+
+	.fav_pulldown {
+		position: static;
+		margin: 0 0 0 5px;
+	}
+
+	div#main table.urendag input.omschrijving {
+		height: auto;
+		font: inherit;
+	}
+
+	td input {
+		padding: 5px;
+	}
+
+	div#main table.urendag input.tijd,
+	div#main table.urendag input.tijdtotaal {
+		height: auto;
+		font-size: inherit;
+	}
+
+	div#main table.urendag .tweede.rechts input.tijd {
+		border-color: #eee;
+		color: #999;
+	}
+
+	.urenregel_project {
+		overflow: visible;
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+
+	.uren_omschrijving {
+		overflow: visible;
+		margin: 0;
+		width: auto;
+	}
+
+	div#main span.footer {
+		display: block;
+		float: none;
+		overflow: hidden;
+		border: none;
+		padding: 10px 0;
+		/* width defined at main layout */
+		height: auto;
+		background: none;
+	}
+
+	div#main span.weektotaal,
+	div#main span.dagtotaal,
+	div#main span.opslaan,
+	div#main span.afronden {
+		display: block;
+		margin: 0 0.5em;
+		padding: 5px 0;
+		width: auto;
+		height: auto;
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	div#main span.opslaan,
+	div#main span.afronden {
+		padding: 5px;
+	}
+
+	input[type="button"],
+	.opslaan,
+	.afronden {
+		cursor: pointer;
+	}
+
+	input[type="button"]:hover,
+	input[type="button"]:focus,
+	div#main span.opslaan:hover,
+	div#main span.opslaan:focus,
+	div#main span.afronden:hover,
+	div#main span.afronden:focus {
+		background: #090;
+	}
+
+	div#main span.afronden input {
+		vertical-align: middle;
+	}
+
+	div#main span.opslaan[title="Nieuwe urenregel"] {
+		background: none;
+		color: #f95808;
+		text-decoration: underline;
+	}
+
+	div#main span.opslaan[title="Nieuwe urenregel"]:hover,
+	div#main span.opslaan[title="Nieuwe urenregel"]:focus {
+		background: none;
+		text-decoration: none;
+	}
+
+	div#main span.dagtotaal,
+	div#main span.weektotaal {
+		color: #999;
+	}
+
+	div#main span.dagtotaal span,
+	div#main span.weektotaal span {
+		padding: 0;
+		background: none;
+		color: #404040;
+	}
+
+	div#main span.dagtotaal span {
+		font-weight: bold;
+	}
+
+	div#main table.even input,
+	div#main table.even select,
+	div#main table.even textarea
+	div#main table.oneven input,
+	div#main table.oneven select,
+	div#main table.oneven textarea {
+		border: 1px solid #ccc;
+	}
+
+	div#main table.oneven input,
+	div#main table.oneven select,
+	div#main table.oneven textarea {
+		background: rgba(255,255,155,0.3);
+	}
+/*-- End container 2 --*/
+
+
+/*-- Start nieuwe logging --*/
+
+	.timeSpentForm {
+		float: left;
+		margin-right: 5px;
+	}
+
+	.timeSpentForm label {
+		margin-right: 4px;
+	}
+
+	.timeSpent {
+		margin-right: 4px;
+	}
+
+	.timeSpentButton {
+		border: none !important;
+		background: #090 !important;
+		color: #fff;
+	}
+
+	::-webkit-input-placeholder {
+		font-style: italic;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		font-style: italic;  
+	}
+
+	:-ms-input-placeholder {  
+		font-style: italic;  
+	}
+
+/*-- End nieuwe logging --*/
