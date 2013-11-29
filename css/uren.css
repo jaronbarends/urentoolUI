@@ -132,12 +132,27 @@ div.buttons_top_right {
 		clear: none;
 		float: none;
 		border: 1px solid #C3C5C6;
+		border-top: none;
 		/* width defined at main layout */
 		font-size: 1.2rem;
 	}
 
-	div#main table.oneven {
+	div#main .header + table.urendag {
+		border-top: 1px solid #C3C5C6;
+	}
+
+	div#main table.oneven,
+	div#main table.even {
+		background: none;
+	}
+
+	div#main form table:nth-child(2n+1),
+	div#main form .test:nth-child(2n) table {
 		background: #f5f5f5;
+	}
+
+	div#main form .test:nth-child(2n+1) table {
+		background: none;
 	}
 
 	td {

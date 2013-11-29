@@ -11,55 +11,11 @@
 	* @returns {undefined}
 	*/
 	var addCss = function() {
-		var css = 'html{font-size:62.5%}body{font-size:1.2rem;line-height:1.5}div#container{margin:0 auto;max-width:1500px}div#main span.footer,div#main span.header,div#main table.urendag{width:100%;max-width:1100px}select,td{-moz-box-sizing:border-box;box-sizing:border-box}div#head{float:none;overflow:hidden;margin:0 0 20px;height:auto}div#head div#menu{overflow:hidden;float:none;border-top:0;border-right:0;width:auto;height:auto}div#head div#menu ul#nav{float:none;width:auto;background:0 0}div.buttons_top_right{margin:48px 5px 0}div#left{clear:none;margin:0 20px}div#agenda,div#meldingen{margin:0 0 20px;width:auto}input:focus,select:focus{box-shadow:0 0 3px #39f}div#container2{overflow:hidden;width:auto}div#main{display:block;float:none;background:0 0;margin:0;width:auto;border:0;font:inherit}div#main span.header{overflow:hidden;display:block;float:none;padding:10px 0;height:auto;background:0 0}div#main span.header h1{display:inline-block;font-size:inherit;margin:0 1em 0 2.5em;width:auto;height:auto}div#main span.header select,div#mainbreed span.header select{float:none;margin:0;width:auto;height:auto;font:inherit}div#main table.urendag{clear:none;float:none;border:1px solid #C3C5C6;font-size:1.2rem}div#main table.oneven{background:#f5f5f5}td{background:none!important}div#main table.urendag tr{height:auto;line-height:inherit}div#main table.urendag td{width:auto;height:auto;padding:5px!important;line-height:inherit}div#main table.urendag tr:first-child td{padding-top:8px!important}div#main table.urendag tr:last-child td{padding-bottom:8px!important}div#main table.urendag td.nummer{font-size:inherit;padding:5px;width:2em}div#main table.urendag td.eerste,div#main table.urendag td.tweede{height:auto;line-height:inherit;vertical-align:auto}div#main table.urendag td.nummer+td.eerste{width:33em}td div.projectnaam_en_urensoort{width:auto}div.bedrijf_pulldown_replacement,td div.projectnaam{margin:0 5px 0 0;padding:0;width:45%;line-height:inherit}td div.urensoort{float:none;margin:0;padding:0;width:auto;line-height:inherit}td div.eerste_regel_rechts{width:auto}div#main table.urendag input.omschrijving,div.uren_omschrijving,td div.urenfase,td div.urenfase2{-moz-box-sizing:border-box;box-sizing:border-box;overflow:visible;margin:0 5px 0 0;padding:5px;width:20em;line-height:inherit}td div.urenfase,td div.urenfase2{margin-right:16px}td div.urenfase2{padding:0}div#main table.urendag tr+tr td:first-child+td{width:21em}div.uren_van_tot{float:left;margin:0;width:16em}div#main table.urendag td.nummer.nietvolledig{color:#404040}div#main table.urendag select{width:90%;padding:5px;max-width:20em;font-size:inherit}div#main table.urendag select.werksoort{margin:0;width:52%;font-size:inherit}option{padding:3px}.urenfase2 span{display:block}div#main table.urendag select.projectfase{width:100%;font-size:inherit}td div.voorcalculatie{margin:0;height:auto;width:auto;color:#999}.tweede.rechts{text-align:left}.verwijderknopregel{display:block;float:right;margin:0}.verwijderknopregel a,a[title="Copy regel"],a[title="Edit regel"],td.verwijderknop a{display:block;float:right;margin:0 0 0 5px!important;padding:5px}.verwijderknopregel a,td.verwijderknop a{border:1px solid #e63200;background:#e63200}a[title="Copy regel"]{border:1px solid #ababab}a[title="Edit regel"]{border:1px solid #090;background:#090}a[title="Copy regel"] img,a[title="Edit regel"] img{margin:0}div#main table.urendag input.project{font-size:inherit;height:auto;padding:5px;width:88%}div#main table.urendag input.project+a{display:inline-block}.fav_pulldown{position:static;margin:0 0 0 5px}div#main table.urendag input.omschrijving{height:auto;font:inherit}td input{padding:5px}div#main table.urendag input.tijd,div#main table.urendag input.tijdtotaal{height:auto;font-size:inherit}div#main table.urendag .tweede.rechts input.tijd{border-color:#eee;color:#999}.urenregel_project{overflow:visible;float:none;margin:0;width:auto}.uren_omschrijving{overflow:visible;margin:0;width:auto}div#main span.footer{display:block;float:none;overflow:hidden;border:0;padding:10px 0;height:auto;background:0 0}div#main span.afronden,div#main span.dagtotaal,div#main span.opslaan,div#main span.weektotaal{display:block;margin:0 .5em;padding:5px 0;width:auto;height:auto;font-size:inherit;line-height:inherit}div#main span.afronden,div#main span.opslaan{padding:5px}.afronden,.opslaan,input[type=button]{cursor:pointer}div#main span.afronden:focus,div#main span.afronden:hover,div#main span.opslaan:focus,div#main span.opslaan:hover,input[type=button]:focus,input[type=button]:hover{background:#090}div#main span.afronden input{vertical-align:middle}div#main span.opslaan[title="Nieuwe urenregel"]{background:0 0;color:#f95808;text-decoration:underline}div#main span.opslaan[title="Nieuwe urenregel"]:focus,div#main span.opslaan[title="Nieuwe urenregel"]:hover{background:0 0;text-decoration:none}div#main span.dagtotaal,div#main span.weektotaal{color:#999}div#main span.dagtotaal span,div#main span.weektotaal span{padding:0;background:0 0;color:#404040}div#main span.dagtotaal span{font-weight:700}div#main table.even input,div#main table.even select,div#main table.even textarea div#main table.oneven input,div#main table.oneven select,div#main table.oneven textarea{border:1px solid #ccc}div#main table.oneven input,div#main table.oneven select,div#main table.oneven textarea{background:rgba(255,255,155,.3)}.timeSpentForm{float:left;margin-right:5px}.timeSpent{margin-right:4px}.timeSpentButton{border:0!important;background:#090!important;color:#fff}::-webkit-input-placeholder{font-style:italic}::-moz-placeholder{font-style:italic}:-ms-input-placeholder{font-style:italic}';
+		var css = 'html{font-size:62.5%}body{font-size:1.2rem;line-height:1.5}div#container{margin:0 auto;max-width:1500px}div#main span.footer,div#main span.header,div#main table.urendag{width:100%;max-width:1100px}select,td{-moz-box-sizing:border-box;box-sizing:border-box}div#head{float:none;overflow:hidden;margin:0 0 20px;height:auto}div#head div#menu{overflow:hidden;float:none;border-top:0;border-right:0;width:auto;height:auto}div#head div#menu ul#nav{float:none;width:auto;background:0 0}div.buttons_top_right{margin:48px 5px 0}div#left{clear:none;margin:0 20px}div#agenda,div#meldingen{margin:0 0 20px;width:auto}input:focus,select:focus{box-shadow:0 0 3px #39f}div#container2{overflow:hidden;width:auto}div#main{display:block;float:none;background:0 0;margin:0;width:auto;border:0;font:inherit}div#main span.header{overflow:hidden;display:block;float:none;padding:10px 0;height:auto;background:0 0}div#main span.header h1{display:inline-block;font-size:inherit;margin:0 1em 0 2.5em;width:auto;height:auto}div#main span.header select,div#mainbreed span.header select{float:none;margin:0;width:auto;height:auto;font:inherit}div#main table.urendag{clear:none;float:none;border:1px solid #C3C5C6;border-top:0;font-size:1.2rem}div#main .header+table.urendag{border-top:1px solid #C3C5C6}div#main table.even,div#main table.oneven{background:0 0}div#main form .test:nth-child(2n) table,div#main form table:nth-child(2n+1){background:#f5f5f5}div#main form .test:nth-child(2n+1) table{background:0 0}td{background:none!important}div#main table.urendag tr{height:auto;line-height:inherit}div#main table.urendag td{width:auto;height:auto;padding:5px!important;line-height:inherit}div#main table.urendag tr:first-child td{padding-top:8px!important}div#main table.urendag tr:last-child td{padding-bottom:8px!important}div#main table.urendag td.nummer{font-size:inherit;padding:5px;width:2em}div#main table.urendag td.eerste,div#main table.urendag td.tweede{height:auto;line-height:inherit;vertical-align:auto}div#main table.urendag td.nummer+td.eerste{width:33em}td div.projectnaam_en_urensoort{width:auto}div.bedrijf_pulldown_replacement,td div.projectnaam{margin:0 5px 0 0;padding:0;width:45%;line-height:inherit}td div.urensoort{float:none;margin:0;padding:0;width:auto;line-height:inherit}td div.eerste_regel_rechts{width:auto}div#main table.urendag input.omschrijving,div.uren_omschrijving,td div.urenfase,td div.urenfase2{-moz-box-sizing:border-box;box-sizing:border-box;overflow:visible;margin:0 5px 0 0;padding:5px;width:20em;line-height:inherit}td div.urenfase,td div.urenfase2{margin-right:16px}td div.urenfase2{padding:0}div#main table.urendag tr+tr td:first-child+td{width:21em}div.uren_van_tot{float:left;margin:0;width:16em}div#main table.urendag td.nummer.nietvolledig{color:#404040}div#main table.urendag select{width:90%;padding:5px;max-width:20em;font-size:inherit}div#main table.urendag select.werksoort{margin:0;width:52%;font-size:inherit}option{padding:3px}.urenfase2 span{display:block}div#main table.urendag select.projectfase{width:100%;font-size:inherit}td div.voorcalculatie{margin:0;height:auto;width:auto;color:#999}.tweede.rechts{text-align:left}.verwijderknopregel{display:block;float:right;margin:0}.verwijderknopregel a,a[title="Copy regel"],a[title="Edit regel"],td.verwijderknop a{display:block;float:right;margin:0 0 0 5px!important;padding:5px}.verwijderknopregel a,td.verwijderknop a{border:1px solid #e63200;background:#e63200}a[title="Copy regel"]{border:1px solid #ababab}a[title="Edit regel"]{border:1px solid #090;background:#090}a[title="Copy regel"] img,a[title="Edit regel"] img{margin:0}div#main table.urendag input.project{font-size:inherit;height:auto;padding:5px;width:88%}div#main table.urendag input.project+a{display:inline-block}.fav_pulldown{position:static;margin:0 0 0 5px}div#main table.urendag input.omschrijving{height:auto;font:inherit}td input{padding:5px}div#main table.urendag input.tijd,div#main table.urendag input.tijdtotaal{height:auto;font-size:inherit}div#main table.urendag .tweede.rechts input.tijd{border-color:#eee;color:#999}.urenregel_project{overflow:visible;float:none;margin:0;width:auto}.uren_omschrijving{overflow:visible;margin:0;width:auto}div#main span.footer{display:block;float:none;overflow:hidden;border:0;padding:10px 0;height:auto;background:0 0}div#main span.afronden,div#main span.dagtotaal,div#main span.opslaan,div#main span.weektotaal{display:block;margin:0 .5em;padding:5px 0;width:auto;height:auto;font-size:inherit;line-height:inherit}div#main span.afronden,div#main span.opslaan{padding:5px}.afronden,.opslaan,input[type=button]{cursor:pointer}div#main span.afronden:focus,div#main span.afronden:hover,div#main span.opslaan:focus,div#main span.opslaan:hover,input[type=button]:focus,input[type=button]:hover{background:#090}div#main span.afronden input{vertical-align:middle}div#main span.opslaan[title="Nieuwe urenregel"]{background:0 0;color:#f95808;text-decoration:underline}div#main span.opslaan[title="Nieuwe urenregel"]:focus,div#main span.opslaan[title="Nieuwe urenregel"]:hover{background:0 0;text-decoration:none}div#main span.dagtotaal,div#main span.weektotaal{color:#999}div#main span.dagtotaal span,div#main span.weektotaal span{padding:0;background:0 0;color:#404040}div#main span.dagtotaal span{font-weight:700}div#main table.even input,div#main table.even select,div#main table.even textarea div#main table.oneven input,div#main table.oneven select,div#main table.oneven textarea{border:1px solid #ccc}div#main table.oneven input,div#main table.oneven select,div#main table.oneven textarea{background:rgba(255,255,155,.3)}.timeSpentForm{float:left;margin-right:5px}.timeSpent,.timeSpentForm label{margin-right:4px}.timeSpentButton{border:0!important;background:#090!important;color:#fff}::-webkit-input-placeholder{font-style:italic}::-moz-placeholder{font-style:italic}:-ms-input-placeholder{font-style:italic}';
 		var h = '<style>'+css+'</style>';
 		$('head').append(h);
 	};
-		
-
-	/**
-	* adjust an elements tabindex so we can insert ours in between
-	* @returns {undefined}
-	*/
-	var adjustTabindex = function() {
-		var $elm = $(this);
-		var originalTabindex = parseInt($elm.data('original-tabindex'),10),
-			ti = parseInt($elm.attr('tabindex'),10);
-
-		if (!originalTabindex || ti !== originalTabindex) {
-			ti = 10*parseInt(ti, 10);
-			$elm.attr('tabindex', ti).data('original-tabindex', ti);
-		}
-	};
-
-
-	/**
-	* adjust tabindexes, so we can insert ours in between
-	* @param {string} varname Description
-	* @returns {undefined}
-	*/
-	var adjustTabindexes = function() {
-		$('[tabindex]').each(adjustTabindex);
-	};
-
-
-
-	/**
-	* selectboxes get updated when a project is selected; we can't detect when that happens
-	* so just watch the checkboxes to see if their tabindex is still correct
-	* @param {string} varname Description
-	* @returns {undefined}
-	*/
-	var checkTabindexes = function() {
-		clearTimeout(tabindexCheckTimer);
-		tabindexCheckTimer = setTimeout(function() {
-			$('.urenfase2').find('select').each(adjustTabindex);
-			checkTabindexes();
-		}, 200);
-	};
 	
-	
-
 
 	/**
 	* add a timeSpent input field to a line
@@ -77,16 +33,14 @@
 
 			var html = '<div class="timeSpentForm">';
 				html += '<label for="'+inputId+'">Tijdsduur</label>';
-				html += '<input type="text" class="tijd timeSpent" name="'+inputId+'" id="'+inputId+'" placeholder="1h15" tabindex="'+(tabindex-2)+'" title="'+titleAttr+'">';
-				html += '<input type="button" class="timeSpentButton" value="Opslaan" tabindex="'+(tabindex-1)+'">';
+				html += '<input type="text" class="tijd timeSpent" name="'+inputId+'" id="'+inputId+'" placeholder="1h15" tabindex="'+tabindex+'" title="'+titleAttr+'">';
+				html += '<input type="button" class="timeSpentButton" value="Opslaan" tabindex="'+tabindex+'">';
 				html += '</div>';
 
 			$line.find('.eerste.verwijderknop').find('.urenfase, .urenfase2').after(html);
 		}
 	};
 	
-
-
 
 	/**
 	* 
@@ -104,7 +58,6 @@
 		});
 
 	};
-	
 
 
 	/**
@@ -273,8 +226,8 @@
 	*/
 	var init = function() {
 		addCss();
-		adjustTabindexes();
-		checkTabindexes();
+		//adjustTabindexes();
+		//checkTabindexes();
 		setStartTime();
 		initAddLineHook();
 		initLogEvent();
