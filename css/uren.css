@@ -19,7 +19,7 @@ div#container {
 	div#main table.urendag,
 	div#main span.footer {
 		width: 100%;
-		max-width: 1100px;
+		max-width: 1140px;
 	}
 
 	td,
@@ -87,6 +87,7 @@ div.buttons_top_right {
 
 	div#container2 {
 		overflow: hidden;
+		margin-right: 20px;
 		width: auto;
 	}
 
@@ -193,7 +194,7 @@ div.buttons_top_right {
 	}
 
 	div#main table.urendag td.nummer + td.eerste {
-		width: 33em;
+		width: 30em;
 	}
 
 		td div.projectnaam_en_urensoort {
@@ -319,17 +320,41 @@ div.buttons_top_right {
 
 		td.verwijderknop a,
 		.verwijderknopregel a {
+			border: 1px solid transparent;
+			background: transparent;
+		}
+
+		td.verwijderknop a:hover,
+		td.verwijderknop a:focus,
+		.verwijderknopregel a:hover,
+		.verwijderknopregel a:focus {
 			border: 1px solid #e63200;
 			background: #e63200;
 		}
 
 		a[title="Copy regel"] {
-			border: 1px solid #ababab;
+			border: 1px solid transparent;
+		}
+
+		a[title="Copy regel"]:hover,
+		a[title="Copy regel"]:focus {
+			border: 1px solid #e67731;
 		}
 
 		a[title="Edit regel"] {
+			border: 1px solid transparent;
+			background: transparent;
+		}
+
+		a[title="Edit regel"]:hover,
+		a[title="Edit regel"]:focus {
 			border: 1px solid #090;
 			background: #090;
+		}
+
+		td.verwijderknop a.bekijk_details {
+			border: none;
+			background: none;
 		}
 
 
@@ -422,13 +447,13 @@ div.buttons_top_right {
 		cursor: pointer;
 	}
 
-	input[type="button"]:hover,
-	input[type="button"]:focus,
+	div#main table input[type="button"]:hover,
+	div#main table input[type="button"]:focus,
 	div#main span.opslaan:hover,
 	div#main span.opslaan:focus,
 	div#main span.afronden:hover,
 	div#main span.afronden:focus {
-		background: #090;
+		background: #0072bc;
 	}
 
 	div#main span.afronden input {
@@ -495,9 +520,9 @@ div.buttons_top_right {
 		margin-right: 4px;
 	}
 
-	.timeSpentButton {
-		border: none !important;
-		background: #090 !important;
+	div#main table input.timeSpentButton {
+		border: none;
+		background: #090;
 		color: #fff;
 	}
 
